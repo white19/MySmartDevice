@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#47a3da"
+     >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view"
+        android:text="fragment" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+    <TextView
+       android:id="@+id/reg_message"
+       android:layout_width="98dp"
+       android:layout_height="wrap_content"
+       android:text="快註冊阿你，快填好資料讓我拿去賣阿!!!" />
+
+</LinearLayout>
